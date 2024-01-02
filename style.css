@@ -56,3 +56,27 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+
+.qualities-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality-item {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    min-width: 50px;
+    max-width: 200px;
+    min-height: 50px;
+    max-height: 500px;
+    line-height: 1.5;
+}
