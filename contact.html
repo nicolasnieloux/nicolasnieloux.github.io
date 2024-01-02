@@ -14,19 +14,30 @@
 <header class="d-flex justify-content-center py-3">
     <ul class="nav nav-pills ">
         <li class="nav-item"><a href="index.html" class="nav-link">Présentation</a></li>
-        <li class="nav-item "><a href="hobby.html" class="nav-link active" aria-current="page">Hobby</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item "><a href="hobby.html" class="nav-link">Hobby</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
     </ul>
 </header>
 
-<h1>Mon hobby principal</h1>
-<h2>Le jeu vidéo</h2>
-<div class="d-flex justify-content-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_6v_D3QocIs?si=osNo7DKVGC8kwe-M"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+<div class="form-container">
+    <h1>Me contacter</h1>
+    <form action="https://httpbin.org/post" target="_blank" method="post" class="contact-form">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button class="mt-3" type="submit">Envoyer</button>
+    </form>
 </div>
+
 <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Présentation</a></li>
