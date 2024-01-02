@@ -10,11 +10,14 @@
 h1 {
     display: flex;
     justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 h2 {
     display: flex;
     justify-content: center;
+    padding-bottom: 25px;
 }
 
 
@@ -48,4 +51,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.video-game {
+    display: flex;
+    justify-content: center;
 }
