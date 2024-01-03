@@ -32,6 +32,9 @@ h2 {
     padding-right: 100px;
 }
 
+.presentation p {
+    text-align: center;
+}
 .video-game {
     display: flex;
     justify-content: center;
@@ -161,6 +164,11 @@ button:hover {
         display: flex;
         justify-content: center;
     }
+    p {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
@@ -180,5 +188,10 @@ button:hover {
         border-radius: 50%;
         margin-top: 25px;
         margin-bottom: 25px;
+    }
+    p {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
     }
 }
