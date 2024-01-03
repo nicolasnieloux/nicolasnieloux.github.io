@@ -133,6 +133,7 @@ button:hover {
         justify-content: center;
         padding-top: 25px;
         padding-bottom: 25px;
+        background-color: red;
     }
         .citation {
         font-size: 40px;
@@ -150,6 +151,8 @@ button:hover {
         justify-content: center;
         padding-top: 25px;
         padding-bottom: 25px;
+        text-align: center;
+        background-color: dodgerblue;
     }
     .profile-picture {
         width: 150px;
@@ -169,6 +172,11 @@ button:hover {
         display: flex;
         justify-content: center;
     }
+
+    .qualities-list {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
@@ -178,8 +186,6 @@ button:hover {
         justify-content: center;
         padding-top: 25px;
         padding-bottom: 25px;
-        color: red;
-        background-color: red;
     }
     .profile-picture {
         width: 250px;
@@ -194,4 +200,5 @@ button:hover {
         display: flex;
         justify-content: center;
     }
+
 }
